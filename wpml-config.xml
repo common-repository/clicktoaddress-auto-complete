@@ -1,0 +1,21 @@
+<wpml-config>
+
+<admin-texts>
+ <key name="woocommerce_clicktoaddress_autocomplete_settings">
+  <key name="search_label" />
+  <key name="reveal_button" />
+  <key name="hide_button" />
+  <key name="default_placeholder" />
+  <key name="country_placeholder" />
+  <key name="country_button" />
+  <key name="generic_error" />
+  <key name="no_results" />
+  <key name="postcode_msg1" />
+  <key name="postcode_err_msg1" />
+  <key name="postcode_err_msg2" />
+  <key name="postcode_err_msg3" />
+  <key name="postcode_err_msg4" />
+ </key>
+</admin-texts>
+
+</wpml-config>

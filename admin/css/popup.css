@@ -1,0 +1,115 @@
+#fetchify-popup {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px; }
+  #fetchify-popup .fetchify-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000; }
+    #fetchify-popup .fetchify-background .fetchify-content {
+      position: relative;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8%;
+      background-color: white;
+      width: 100%;
+      max-width: 500px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(0, 0, 0, 0.2);
+      border-radius: 5px;
+      -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      -webkit-touch-callout: none;
+      /* iOS Safari */
+      -webkit-user-select: none;
+      /* Safari */
+      -khtml-user-select: none;
+      /* Konqueror HTML */
+      -moz-user-select: none;
+      /* Old versions of Firefox */
+      -ms-user-select: none;
+      /* Internet Explorer/Edge */
+      user-select: none;
+      /* Chrome, Edge, Opera and Firefox */ }
+      #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-top {
+        padding: 20px 0;
+        border-bottom: 1px solid #ddd; }
+        #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-top .fetchify-content-top-inner {
+          padding: 0 20px; }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-top .fetchify-content-top-inner img {
+            display: block;
+            margin: auto; }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-top .fetchify-content-top-inner .fetchify-close-button {
+            width: 20px;
+            height: 20px;
+            float: right;
+            cursor: pointer;
+            fill: silver; }
+            #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-top .fetchify-content-top-inner .fetchify-close-button:hover {
+              fill: #063EA0; }
+      #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom {
+        padding: 20px; }
+        #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom h4 {
+          margin-top: 0; }
+        #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-error-display {
+          display: none;
+          margin-bottom: 20px;
+          padding: 1em;
+          border-radius: 4px;
+          font-size: 15px;
+          font-weight: bold;
+          color: white;
+          background-color: #efa91f;
+          text-align: center; }
+        #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom form.fetchify-form input:not([type="submit"]) {
+          width: 100%;
+          background-color: WhiteSmoke;
+          border: 1px solid #BDC4C9;
+          border-radius: 3.5px;
+          padding: 10px 15px;
+          margin-bottom: 10px;
+          line-height: 2;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+        #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom form.fetchify-form input.fetchify-load-button {
+          background-color: #14AAFE;
+          text-transform: uppercase;
+          font-weight: bold;
+          border-radius: 3.5px;
+          padding: 20px;
+          color: white;
+          cursor: pointer;
+          width: 100%;
+          border-width: 0px; }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom form.fetchify-form input.fetchify-load-button:hover {
+            background-color: #063EA0; }
+        #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-loading-img {
+          width: 50px;
+          height: 50px;
+          margin: 100px auto; }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-loading-img svg rect {
+            fill: #063EA0; }
+        #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-result-display table {
+          width: 100%;
+          border-collapse: collapse; }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-result-display table tr {
+            border-style: solid;
+            border-width: 1px;
+            border-color: #d3d3d3; }
+            #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-result-display table tr td {
+              padding: 0.5em 0.75em; }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-result-display table thead {
+            background-color: #e8e8e8;
+            font-weight: bold; }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-result-display table tbody tr:nth-child(2n+1) {
+            background-color: rgba(175, 175, 175, 0.1); }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-result-display table tbody tr:hover {
+            background-color: #063EA0;
+            color: #ffffff;
+            cursor: pointer; }
+          #fetchify-popup .fetchify-background .fetchify-content .fetchify-content-bottom .fetchify-result-display table tbody tr td {
+            padding: 0.5em 0.75em; }
